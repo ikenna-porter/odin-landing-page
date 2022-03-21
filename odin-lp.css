@@ -13,7 +13,7 @@ body {
     align-items: center;
     background-color: #1F2937;
     color: white;
-    padding: 10px 0 50px 0;
+    padding: 15px 0 120px 0;
     gap: 75px;
     flex: 1;
 }
@@ -22,6 +22,10 @@ header {
     display: flex;
     justify-content: space-between;
     width: 80%;
+}
+
+header h3 {
+    margin: 0;
 }
 
 .logo {
@@ -67,14 +71,68 @@ header {
 
 .header-text button {
     width: 100px;
-    padding: 5px;
+    padding: 10px 20px;
     border-radius: 5px;
     border-style: none;
     background-color: #3882F6;
     color: white;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .header-text-image img {
     width: 500px;
     height: 250px;
+}
+
+/* Section 2 */
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0 75px 0;
+}
+.section-two h2 {
+    font: 36px bold Arial, Helvetica, sans-serif;
+    color: #1F2937;
+}
+
+.section-two-images {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.image-container {
+    width: 250px;
+}
+
+.image-container img {
+    border-radius: 5px;
+    border-style: none;
+    width: 200px;
+    height: 200px;
+}
+
+/* Section Three */
+.section-three {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+.section-three blockquote {
+    font-size: 36px;
+    font-family: italic;
+    color: #1F2937;
+    width: 800px;
+    margin: 0;
+}
+
+.section-three p {
+    font-weight: bold;
+    padding-left: 550px;
 }
