@@ -2,7 +2,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    width: 70%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -12,7 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(31, 31, 98);
+    background-color: #1F2937;
     color: white;
     padding: 10px 0 50px 0;
     gap: 75px;
@@ -22,15 +21,18 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    width: 80%;
 }
 
 .logo {
-
+    font-size: 24px;
+    font: #F9FAF8;
 }
 
 .header-links {
-
-
+    font-size: 18px;
+    font: #E5E7EB;
+    font-weight: normal;
 }
 
 .header-links ul {
@@ -47,15 +49,19 @@ header {
 .header-text-image {
     display: flex;
     justify-content: space-between;
+    width: 80%;
 }
 
 .header-text {
     display: flex;
     flex-direction: column;
-    width: 33%;
+    width: 40%;
 }
 
-.header-text h1 {
+.main-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
     margin: 0;
 }
 
@@ -64,11 +70,11 @@ header {
     padding: 5px;
     border-radius: 5px;
     border-style: none;
-    background-color: rgb(1, 132, 219);
+    background-color: #3882F6;
     color: white;
 }
 
 .header-text-image img {
     width: 500px;
-    height: 200px;
+    height: 250px;
 }
