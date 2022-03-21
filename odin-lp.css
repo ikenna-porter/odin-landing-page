@@ -1,4 +1,4 @@
-/* Section 1 styles */
+/* Section 1 */
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -115,7 +115,7 @@ header h3 {
     height: 200px;
 }
 
-/* Section Three */
+/* Section 3 */
 .section-three {
     background-color: #E5E7EB;
     display: flex;
@@ -135,4 +135,45 @@ header h3 {
 .section-three p {
     font-weight: bold;
     padding-left: 550px;
+}
+
+/* Section 4 */
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 400px;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    color: white;
+    padding: 40px 50px;
+    border-radius: 5px;
+    gap: 125px;
+}
+
+.action button {
+    background-color: #3882F6;
+    border: solid white;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 125px;
+    height: 35px;
+}
+
+.action p, h3 {
+    margin: 0 0 5px 0;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 40px;
 }
